@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  , END,     PGDN, N  , M  ,COMM ,DOT,SLSH,VOLU,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     LOWR,LOWR,LGUI,LALT,ENT ,BSPC,LOWR,     LOWR,SPC,ENT  ,LEFT,RGHT,MPLY,VOLD
+     LOWR,RASE,LGUI,LALT,ENT ,BSPC,LOWR,     LOWR,SPC,ENT  ,LEFT,RGHT,MPLY,VOLD
   //`----+----+----+----+----+----+----'    `----+----+----+----+----+----+----'
   ),
 
