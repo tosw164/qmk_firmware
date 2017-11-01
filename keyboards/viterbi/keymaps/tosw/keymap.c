@@ -51,9 +51,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
      LCTL, A  , S  , D , F  , G  , HOME,     PGUP, H  , J  , K  , L  ,SCLN,QUOT,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     LSFT, Z  , X  , C  , V  , B  , B  ,      N  , M  ,COMM,DOT ,SLSH,HOME,END ,
+     LSFT, Z  , X  , C  , V  , B  , END,     PGDN, N  , M  ,COMM ,DOT,SLSH,VOLU,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     PGDN,AJST,LCTL,LALT,LGUI,LOWR,SPC ,     SPC ,RASE,LEFT,DOWN, UP ,RGHT,BSLS
+     LOWR,LOWR,LGUI,LALT,ENT ,BSPC,LOWR,     LOWR,SPC,ENT  ,LEFT,RGHT,MPLY,VOLD
   //`----+----+----+----+----+----+----'    `----+----+----+----+----+----+----'
   ),
 
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
   [_LOWER] = KC_KEYMAP(
   //,----+----+----+----+----+----+----.    ,----+----+----+----+----+----+----.
-     GRV ,TILD, F1 , F2 , F3 , F4 , F5 ,      F6 , F7 , F8 , F9 ,F10 ,F11 ,F12 ,
+     GRV ,F1  , F2 , F3 , F4 , F5 ,F11 ,     F12 , F6 , F7 , F8 ,F9  ,F10 ,    ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
      UNDS,    ,EXLM, AT ,HASH,DLR ,PERC,     CIRC,AMPR,ASTR,LPRN,RPRN,LCBR,RCBR,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
